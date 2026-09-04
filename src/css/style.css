@@ -1,6 +1,11 @@
 
 body{
-    background-color: #2D3138;
+    background: linear-gradient(
+    135deg,
+    #303640 0%,
+    #181C23 50%,
+    #000000 100%
+  );
     color:#A9ABB5;
 }
 
@@ -17,6 +22,7 @@ nav{
 
 .nav-link{
     text-transform: uppercase;
+     color:#A9ABB5;
 }
 
 .nav-link:hover{
@@ -37,7 +43,7 @@ nav{
 
 .main-title{
     font-weight: bolder;
-    color: #FFFFFF;
+    color: #EFF0FB;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
 
@@ -51,7 +57,7 @@ nav{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5rem;
-    background: linear-gradient(90deg,#FFFFFF, #FF525D);
+    background: linear-gradient(90deg,#EFF0FB, #FF525D);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -89,3 +95,38 @@ nav{
     border: 1px solid #A9ABB5;
 }
 
+/* ---- NOSOTROS ---- */
+
+#nosotros{
+    min-height: 100dvh;
+}
+
+.nosotros-content span{
+    color: #FFB3B2;
+    text-transform: uppercase;
+
+}
+
+#nosotros h2{
+    text-transform: uppercase;
+    color: #EFF0FB;
+}
+
+.card{
+    background-color: #43474F;
+}
+.card-title{
+    color: #FFB3B2;
+}
+
+.card-text{
+    color: #EFF0FB;
+}
+
+.fa-dumbbell{
+    font: 30px;
+}
+
+.nosotros-img{
+    min-width: 100%;
+}
