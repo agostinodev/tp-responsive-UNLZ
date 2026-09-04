@@ -1,0 +1,19 @@
+
+
+
+/* ---- NAVBAR ---- */
+nav{
+    background-color: #000000;
+}
+
+.nav-logo{
+    height: 40px;
+}
+
+.nav-link{
+    color: #A9ABB5;
+}
+
+.nav-link:hover{
+    color: #EFF0FB;
+}
