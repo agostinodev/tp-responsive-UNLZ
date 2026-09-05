@@ -57,7 +57,7 @@ nav{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5rem;
-    background: linear-gradient(90deg,#EFF0FB, #FF525D);
+    background: linear-gradient(to left,#EFF0FB,#FFB3B2, #FF525D);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -97,13 +97,12 @@ nav{
 
 /* ---- NOSOTROS ---- */
 
-#nosotros{
-    min-height: 100dvh;
-}
+
 
 .nosotros-content span{
-    color: #FFB3B2;
+    color: #FF525d;
     text-transform: uppercase;
+    font-weight: 600;
 
 }
 
@@ -113,14 +112,16 @@ nav{
 }
 
 .card{
-    background-color: #43474F;
+    background-color: #303640;
 }
 .card-title{
     color: #FFB3B2;
+    text-wrap: pretty;
 }
 
 .card-text{
     color: #EFF0FB;
+    text-wrap: pretty;
 }
 
 .fa-dumbbell{
@@ -130,3 +131,34 @@ nav{
 .nosotros-img{
     min-width: 100%;
 }
+
+/* -------------------- SERVICIOS -------------------- */
+
+#servicios h2 {
+  text-transform: uppercase;
+  color: #eff0fb;
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+
+.servicios-content {
+  max-width: 800px;
+}
+
+
+.servicios-content span {
+  color: #FF525d;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+.servicios-content p {
+  text-wrap: pretty;
+}
+
+
+
+
+
