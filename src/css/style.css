@@ -178,6 +178,7 @@ nav{
 .form-content{
     background-color: #303640;
     border-radius: 5px;
+    max-width: 900px;
 }
 
 .form-content-input{
@@ -198,4 +199,22 @@ nav{
 
 .form-label {
     color: #FFB3B2;
+}
+
+/* -------------------- FORMULARIO -------------------- */
+
+footer{
+    background-color: #000000;
+}
+
+.footer-content h3{
+    font-size: 18px;
+}
+
+.footer-content p{
+    font-size: 12px;
+}
+
+.footer-derechos p{
+    font-size: 10px;
 }
